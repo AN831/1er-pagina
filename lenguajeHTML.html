@@ -4,7 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Surgimiento de un Agujero Negro</title>
+    <style>
+
+        p { 
+            color: rgb(212, 206, 206);
+            font-family: 'Shadows Into Light', cursive;
+            font-size: x-large;
+        }
+        h1 {
+            color: rgb(57, 39, 175);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2cm;
+        }
+        h2{
+            color: bisque;
+            font-family: 'Caveat', cursive;
+            font-size: 1cm;
+        }
+        form{
+            color: rgb(165, 113, 110);
+            font-size: smaller;
+        }
+        a{
+            color: darkcyan;
+            font-style:oblique
+        }
+        footer{
+            font-size: x-small;
+            background-color: rgb(131, 185, 231);
+            
+        }
+        #nombre{
+            color: black;
+            font-size: smaller;
+        }
+        #contactos{
+            color: rgb(122, 101, 170);
+            font-size: smaller;
+        }
+        .contacto{
+            font-size: smaller;
+        }
+        .opcion{
+            color: rgb(51, 51, 97);
+        }
+        #encuesta{
+            font-family: 'Caveat', cursive;
+            font-size: .50cm;
+        }
+        main,aside{
+            width: 48%;
+            display: inline-block;
+            border-width: 16px;
+            border-color: red;
+            border-style: groove;
+        }
+  
+    </style>
 </head>
 <body>
 <header>
@@ -17,23 +74,23 @@
       #:~:text=La%20existencia%20de%20los%20agujeros,
       Schwarzschild%2C%20Subrahmanyan%20Chandrasekhar%20y%20otros." target="_blank">Historia del agujero negro; bbvaopenmind</a>
 </header>
-<main>
+<main> 
   <h2>"Apartir....¿De la muerte de una estrella?"</h2>
     <p>Cuando se genera una supergigante, muere causando una<strong> Supernova.</strong></p>
     <p>Este tipo de estrellas mueren de una forma catastrofica, debido a su gran cantidad de masa,
         por esto mismo, su lapso de vida es corto.</p>
 </main>
 <aside>
- <h2>¿Quien fue el descubridor del Agujero Negro?</h2>
+ <h2 id="encuesta">¿Quien fue el descubridor del Agujero Negro?</h2>
     <form>
         <ul><i>Seleccione la respuesta acertada.</i>
-            <li>
+            <li class="opcion">
                 <input type="checkbox" id="Stephen Hawking"><label for="Stephen Hawking">Stephen Hawking</label>
             </li>
-            <li>
+            <li class="opcion">
                 <input type="checkbox" id="Albert Einstein"><label for="Albert Einstein">Albert Einstein</label>
             </li>
-            <li>
+            <li class="opcion">
                 <input type="checkbox" id="Otros"><label for="Otros">Otros.</label>
             </li>
             <li><input type="button" value="enviar">
@@ -42,10 +99,10 @@
     </form>
 </aside>
 <footer>
- <p>Angel David Cabañas Hernandez.</p>
-    <p>Estudiante Universitario, 18 años de edad. </p>
- <p>Cualquier contacto o sugerencia, se anexan mis contactos por medios digitales:</p>
- <p>Tel:5584837925 ; Facebook. CienciasDav04</p>
+<p id="nombre">Angel David Cabañas Hernandez.</p>
+    <p class="contacto">Estudiante Universitario, 18 años de edad. </p>
+ <p class="contacto">Cualquier contacto o sugerencia, se anexan mis contactos por medios digitales:</p>
+ <p id="contactos">Tel:5584837925 ; dcasas675@gmail.com; Facebook. CienciasDav04</p>
 </footer>
 <figure>
     <img src="IMG/fotoAN.jfif" alt="foto de agujero negro">
